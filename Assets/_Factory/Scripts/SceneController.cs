@@ -28,7 +28,7 @@ public class SceneController : MonoBehaviour {
             instance = this;
     }
     private void Update() {
-        timer += Time.deltaTime * SceneController.instance.TimeScale;
+        timer += Time.deltaTime * TimeScale;
         if (builder.selectedBase != null)
             if (timer >= changeIdle) {
                 builder.selectedCharacter.ChangeIdle();

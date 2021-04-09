@@ -28,12 +28,15 @@ namespace CharacterFactory {
             FemaleBase.SetActive(false);
         }
         public void CreateCharacter(string btnName) {
+            //Tipo de personaje que vamos a crear
             CharacterType type = StringToType(btnName);
+            // Genero del personaje que vamos a crear
             GenderType gender = GetGenderProbability();
+            //Seteamos la base del personaje
             SetCharacter(gender);
+
             switch (type) {
                 case CharacterType.Ninja:
-
                     Ninja ninja = selectedBase.AddComponent<Ninja>();
                     ninja = new Ninja(gender, NinjaColor, selectedSurface, selectedBase.GetComponent<Animator>());
                     selectedCharacter = ninja;
