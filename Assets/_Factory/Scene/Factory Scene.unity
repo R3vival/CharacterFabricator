@@ -1011,8 +1011,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4571d2f61375dd46be55e72d565a6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaleBase: {fileID: 0}
-  FemaleBase: {fileID: 0}
+  MaleBase: {fileID: 685499528}
+  FemaleBase: {fileID: 1213980353}
   NinjaColor: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
   GolemColor: {r: 0.023534775, g: 0, b: 1, a: 1}
   ZombieColor: {r: 0.14576784, g: 0.509434, b: 0, a: 0}
@@ -1687,6 +1687,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 685499526}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &685499528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9fab05bde21dedb4ca52983ed1a92f3e,
+    type: 3}
+  m_PrefabInstance: {fileID: 685499526}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &745643791
 GameObject:
   m_ObjectHideFlags: 0
@@ -2167,6 +2173,12 @@ PrefabInstance:
 --- !u!4 &1213980352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 42ea922b9a1d5f94fba2c138f32acbe1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1213980351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1213980353 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 42ea922b9a1d5f94fba2c138f32acbe1,
     type: 3}
   m_PrefabInstance: {fileID: 1213980351}
   m_PrefabAsset: {fileID: 0}
